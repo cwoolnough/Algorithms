@@ -4,6 +4,7 @@ function countUniqueValues(arr){
 }
 
 function countUniqueValues(arr){
+   // if nothing in the array, return 0.
     if(!arr.length) return 0;
     // set a left pointer
     let i = 0;
