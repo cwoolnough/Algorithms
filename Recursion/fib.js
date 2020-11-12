@@ -5,4 +5,4 @@ function fib(num) {
   return (fib(num -2) + fib(num -1))
 }
 
-console.log(fib(28));
+console.log(fib(3));
