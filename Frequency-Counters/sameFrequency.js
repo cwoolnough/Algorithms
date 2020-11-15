@@ -21,9 +21,10 @@ if(strNum1.length !== strNum2.length) return false;
   for(let key in countNum1){
     if(countNum1[key] !== countNum2[key]) return false;
   }
+  console.log(countNum1);
  
   return true;
 }
 
 console.log(sameFrequency(182, 281))
-console.log(sameFrequency(34, 14))
+// console.log(sameFrequency(34, 14))
