@@ -7,15 +7,15 @@ function capitalizeWord(word) {
 }
 
 function capitalizeWord(word) {
-  capitalizeWord = word[0].toUpperCase()
-  for(let c of capitalizeWord) {
-    capitalizeWord += word.slice(1);
+  capitalizeFirst = word[0].toUpperCase()
+  for(let c of capitalizeFirst) {
+    capitalizeFirst += word.slice(1);
   }
-  return capitalizeWord;
+  return capitalizeFirst;
 }
 
 
 
-console.log(capitalizeWord('word'), 'Word'),
+console.log(capitalizeWord(['car','taco','banana']), 'Word'),
 console.log(capitalizeWord('i'), 'I'),
 console.log(capitalizeWord('glasswear'), 'Glasswear');
